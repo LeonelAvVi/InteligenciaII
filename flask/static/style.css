@@ -1,0 +1,47 @@
+canvas {
+    display:block;
+    /* borde segmentado */
+    border: 2px dashed #fff;
+    margin-top:10px;
+}
+
+.canvas-container{
+  margin-top: 32px; 
+  position: relative; 
+  height: 20px0; 
+  width: 100%; 
+  display: flex; 
+  justify-content: center;
+}
+
+body{
+  background-color: #112752;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  background-color:white;
+  border-radius: 8px;
+  color: #112752;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#uploadInput {
+  /* Estilos personalizados aquí */
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
+  /* Otros estilos */
+}
